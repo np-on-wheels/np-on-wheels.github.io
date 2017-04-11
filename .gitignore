@@ -173,6 +173,7 @@ App_Data/*.ldf
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
 
 # Folder config file
 Desktop.ini
@@ -183,6 +184,8 @@ $RECYCLE.BIN/
 # Mac crap
 .DS_Store
 
+# Windows shortcuts
+*.lnk
 
 #############
 ## Python
@@ -220,4 +223,5 @@ pip-log.txt
 ## Jekyll
 #############
 _site/
-
+.sass-cache/
+.jekyll-metadata
